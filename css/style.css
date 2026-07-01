@@ -1,3 +1,24 @@
+/* h1 {
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+
+p {
+    background-color: brown;
+}
+
+body {
+    background-color: black;
+} */
+
+/* 
+selector{
+    property:value;
+}
+*/
+
+
 .bg-red-h1 {
     background-color: red;
     color: white;
@@ -25,4 +46,48 @@
     text-align: center;
     letter-spacing: 5ch;
     text-decoration: underline dashed;
+}
+
+#pg-background {
+    background-color: blueviolet;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-image: url('../img/background-image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.pg02-background {
+    background-color: aquamarine;
+    margin: 20px;
+    padding: 10px;
+}
+
+
+#box01 {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    /* position: sticky; */
+    position: static;
+    top: 10px;
+    /* right: 20px; */
+    border-radius: 50%;
+    z-index: -1;
+}
+
+#box02 {
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    background-color: blue;
 }
